@@ -12,7 +12,7 @@ function App() {
         <NavBar/>
         <div className='container_2'>
           <Routes>
-            <Route element={<Inicio/>} path='/Hola' ></Route>
+            <Route element={<Inicio/>} path='/' ></Route>
           </Routes>
         </div>
         <div className='container_3' >
