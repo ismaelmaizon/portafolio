@@ -9,9 +9,13 @@ function Inicio() {
         <div className="container_Inicio">
 
             <Card
+                borderColor='#242424'
+                backgroundColor='#242424'
+                w='80%'
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
                 variant='outline'
+                m={"auto"}
                 mt='35px'
                 >
                 <Image
@@ -22,12 +26,15 @@ function Inicio() {
                 />
 
                 <Stack>
-                    <CardBody>
+                    <CardBody color={"white"} >
                         <Heading size='md'>Ismael Maizon</Heading>
 
                         <Text py='2'>
-                            Caffè latte is a coffee beverage of Italian origin made with espresso
-                            and steamed milk.
+                            Estudiante de Ing. en Sitemas
+                        </Text>
+                        <Text py='2'>
+                            Actualmente me encuentro trabajando como desarrollador freelance de paginas web
+
                         </Text>
                     </CardBody>
 
@@ -38,6 +45,8 @@ function Inicio() {
                     </CardFooter>
                 </Stack>
             </Card>
+
+            
         </div>
     )
   }
