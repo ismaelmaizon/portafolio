@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, CardFooter, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import { Button, Card, CardBody, CardFooter, Grid, Heading, Image, Stack, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
 import React from "react";
 import './inicio.css'
 
@@ -45,7 +45,126 @@ function Inicio() {
                     </CardFooter>
                 </Stack>
             </Card>
+            <div className="container_Skills" >
+                <h1 className="container_Skills_h1" >skills...</h1>
+            </div>
+            <Tabs >
+                <TabList  >
+                    <Tab>HTML</Tab>
+                    <Tab>CSS</Tab>
+                    <Tab>Js</Tab>
+                    <Tab>React</Tab>
+                    <Tab>MongoBD</Tab>
+                </TabList>
 
+                <TabPanels>
+                    <TabPanel>
+                    <Card
+                        borderColor='#242424'
+                        backgroundColor='#242424'
+                        w='80%'
+                        direction={{ base: 'column', sm: 'row' }}
+                        overflow='hidden'
+                        variant='outline'
+                        m={"auto"}
+                        mt='35px'
+                        >
+                        <Image
+                            borderRadius={'15px'}                            
+                            h={'200px'}
+                            objectFit='cover'
+                            maxW={{ base: '100%', sm: '200px' }}
+                            src='https://i.ibb.co/D5rP8qF/html-5-html-5-logo-wallpaper-preview.jpg'
+                            alt='Caffe Latte'
+                        />
+                    </Card>
+                    </TabPanel>
+                    <TabPanel>
+                    <Card
+                        borderColor='#242424'
+                        backgroundColor='#242424'
+                        w='80%'
+                        direction={{ base: 'column', sm: 'row' }}
+                        overflow='hidden'
+                        variant='outline'
+                        m={"auto"}
+                        mt='35px'
+                        >
+                       <Image
+                            borderRadius={'15px'}                            
+                            h={'200px'}
+                            objectFit='cover'
+                            maxW={{ base: '100%', sm: '200px' }}
+                            src='https://i.ibb.co/WvGVv4w/css.png'
+                            alt='Caffe Latte'
+                        />
+                    </Card>
+                    </TabPanel>
+                    <TabPanel>
+                    <Card
+                        borderColor='#242424'
+                        backgroundColor='#242424'
+                        w='80%'
+                        direction={{ base: 'column', sm: 'row' }}
+                        overflow='hidden'
+                        variant='outline'
+                        m={"auto"}
+                        mt='35px'
+                        >
+                        <Image
+                            borderRadius={'15px'}
+                            h={'200px'}
+                            objectFit='cover'
+                            maxW={{ base: '100%', sm: '200px' }}
+                            src='https://i.ibb.co/r7xLWqB/javascript.jpg'
+                            alt='Caffe Latte'
+                        />
+                    </Card>
+                    </TabPanel>
+                    <TabPanel>
+                    <Card
+                        borderColor='#242424'
+                        backgroundColor='#242424'
+                        w='80%'
+                        direction={{ base: 'column', sm: 'row' }}
+                        overflow='hidden'
+                        variant='outline'
+                        m={"auto"}
+                        mt='35px'
+                        >
+                        <Image
+                            borderRadius={'15px'}
+                            h={'200'}
+                            objectFit='cover'
+                            maxW={{ base: '100%', sm: '200px' }}
+                            src='https://i.ibb.co/Jryy82Z/react.jpg'
+                            alt='Caffe Latte'
+                        />
+                    </Card>
+                    </TabPanel>
+                    <TabPanel>
+                    <Card
+                        borderColor='#242424'
+                        backgroundColor='#242424'
+                        w='80%'
+                        direction={{ base: 'column', sm: 'row' }}
+                        overflow='hidden'
+                        variant='outline'
+                        m={"auto"}
+                        mt='35px'
+                        >
+                        <Image
+                            borderRadius={'15px'}
+                            h={'200px'}
+                            objectFit='cover'
+                            maxW={{ base: '100%', sm: '200px' }}
+                            src='https://i.ibb.co/X35FFtz/mongo.png'
+                            alt='Caffe Latte'
+                        />
+                    </Card>
+                    </TabPanel>
+                </TabPanels>
+            </Tabs>
             
         </div>
     )

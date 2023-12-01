@@ -15,9 +15,11 @@ function App() {
             <Route element={<Inicio/>} path='/' ></Route>
           </Routes>
         </div>
+        
         <div className='container_3' >
-          <Footer/>
-        </div>
+          { /* <Footer/> */ }
+          
+        </div> 
       </div>
   )
 }
