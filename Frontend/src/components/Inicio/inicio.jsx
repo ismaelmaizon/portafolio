@@ -48,7 +48,7 @@ function Inicio() {
             <div className="container_Skills" >
                 <h1 className="container_Skills_h1" >skills...</h1>
             </div>
-            <Tabs >
+            <Tabs variant='soft-rounded' colorScheme='green' display={"flex"} flexDirection={"column"} alignItems={"center"} >
                 <TabList  >
                     <Tab>HTML</Tab>
                     <Tab>CSS</Tab>
@@ -77,6 +77,19 @@ function Inicio() {
                             src='https://i.ibb.co/D5rP8qF/html-5-html-5-logo-wallpaper-preview.jpg'
                             alt='Caffe Latte'
                         />
+                        <Stack>
+                            <CardBody color={"white"} >
+                                <Heading size='md'>Ismael Maizon</Heading>
+
+                                <Text py='2'>
+                                    Estudiante de Ing. en Sitemas
+                                </Text>
+                                <Text py='2'>
+                                    Actualmente me encuentro trabajando como desarrollador freelance de paginas web
+
+                                </Text>
+                            </CardBody>
+                        </Stack>
                     </Card>
                     </TabPanel>
                     <TabPanel>
