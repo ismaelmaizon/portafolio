@@ -1,7 +1,7 @@
 import { Button, Card, CardBody, CardFooter, Grid, Heading, Image, Stack, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
 import React from "react";
 import './inicio.css'
-
+import { ArrowDownIcon } from '@chakra-ui/icons'
 
 function Inicio() {
 
@@ -25,7 +25,7 @@ function Inicio() {
                     alt='Caffe Latte'
                 />
 
-                <Stack>
+                <Stack color={"white"}>
                     <CardBody color={"white"} >
                         <Heading size='md'>Ismael Maizon</Heading>
 
@@ -33,14 +33,16 @@ function Inicio() {
                             Estudiante de Ing. en Sitemas
                         </Text>
                         <Text py='2'>
-                            Actualmente me encuentro trabajando como desarrollador freelance de paginas web
-
+                            Hola que tal?
                         </Text>
+                        <Text py='2'>
+                            ¡Agradesco tu interes en mi perfil!. ¿Quieres conocer más?
+                        </Text>
+                    <ArrowDownIcon fontSize={'30px'} />
                     </CardBody>
-
                     <CardFooter>
                         <Button variant='solid' colorScheme='blue'>
-                            Buy Latte
+                            Saber más
                         </Button>
                     </CardFooter>
                 </Stack>
@@ -79,15 +81,21 @@ function Inicio() {
                         />
                         <Stack>
                             <CardBody color={"white"} >
-                                <Heading size='md'>Ismael Maizon</Heading>
+                                <Heading size='md'>HTML (HyperText Markup Language)</Heading>
 
                                 <Text py='2'>
-                                    Estudiante de Ing. en Sitemas
+                                Estructura de la página web.
                                 </Text>
                                 <Text py='2'>
-                                    Actualmente me encuentro trabajando como desarrollador freelance de paginas web
-
+                                Semántica.
                                 </Text>
+                                <Text py='2'>
+                                Compatibilidad y estándares (actualmente HTML5).
+                                </Text>
+                                <Text py='2'>
+                                Formularios y validación.
+                                </Text>
+                                
                             </CardBody>
                         </Stack>
                     </Card>
@@ -111,6 +119,27 @@ function Inicio() {
                             src='https://i.ibb.co/WvGVv4w/css.png'
                             alt='Caffe Latte'
                         />
+                        <Stack>
+                            <CardBody color={"white"} >
+                                <Heading size='md'>CSS (Cascading Style Sheets)</Heading>
+
+                                <Text py='2'>
+                                Estilización y diseño.
+                                </Text>
+                                <Text py='2'>
+                                Responsive Web Design (en combinacion con HTML)
+                                </Text>
+                                <Text py='2'>
+                                Compatibilidad y estándares (actualmente HTML5).
+                                </Text>
+                                <Text py='2'>
+                                Reutilización y consistencia de estilos
+                                </Text>
+                                <Text py='2'>
+                                Animaciones y efectos
+                                </Text>
+                            </CardBody>
+                        </Stack>
                     </Card>
                     </TabPanel>
                     <TabPanel>
@@ -132,6 +161,27 @@ function Inicio() {
                             src='https://i.ibb.co/r7xLWqB/javascript.jpg'
                             alt='Caffe Latte'
                         />
+                        <Stack>
+                            <CardBody color={"white"} >
+                                <Heading size='md'>JavaScript</Heading>
+
+                                <Text py='2'>
+                                Manipulación del DOM.
+                                </Text>
+                                <Text py='2'>
+                                Eventos y manejo de acciones del usuario.
+                                </Text>
+                                <Text py='2'>
+                                Comunicación asincrónica.
+                                </Text>
+                                <Text py='2'>
+                                Manejo de errores y debugging.
+                                </Text>
+                                <Text py='2'>
+                                Seguridad
+                                </Text>
+                            </CardBody>
+                        </Stack>
                     </Card>
                     </TabPanel>
                     <TabPanel>
@@ -153,6 +203,27 @@ function Inicio() {
                             src='https://i.ibb.co/Jryy82Z/react.jpg'
                             alt='Caffe Latte'
                         />
+                        <Stack>
+                            <CardBody color={"white"} >
+                                <Heading size='md'>React</Heading>
+
+                                <Text py='2'>
+                                Virtual DOM.
+                                </Text>
+                                <Text py='2'>
+                                Estado (state) y ciclo de vida (lifecycle).
+                                </Text>
+                                <Text py='2'>
+                                Herramientas y biblioteca.
+                                </Text>
+                                <Text py='2'>
+                                Manejo de errores y debugging.
+                                </Text>
+                                <Text py='2'>
+                                React Hooks
+                                </Text>
+                            </CardBody>
+                        </Stack>
                     </Card>
                     </TabPanel>
                     <TabPanel>
@@ -174,6 +245,24 @@ function Inicio() {
                             src='https://i.ibb.co/X35FFtz/mongo.png'
                             alt='Caffe Latte'
                         />
+                        <Stack>
+                            <CardBody color={"white"} >
+                                <Heading size='md'>Mongodb</Heading>
+
+                                <Text py='2'>
+                                Sistema de base de datos NoSQL.
+                                </Text>
+                                <Text py='2'>
+                                Modelo de datos flexible.
+                                </Text>
+                                <Text py='2'>
+                                Escalabilidad.
+                                </Text>
+                                <Text py='2'>
+                                Alto rendimiento.
+                                </Text>
+                            </CardBody>
+                        </Stack>
                     </Card>
                     </TabPanel>
                 </TabPanels>
